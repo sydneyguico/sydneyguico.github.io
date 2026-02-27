@@ -6,7 +6,7 @@
     Date last edited: 02/25/2026
     Version: 1.0
     By: Sydney Guico
-    Description: Homework 1 HTML Form
+    Description: Working Functions to Website Form
 */
 
 //dynamic date js code
