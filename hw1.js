@@ -1,4 +1,3 @@
-
 /*
     Program name: Homework 1 HTML Form
     Author: sydneyguico.github.io
@@ -6,7 +5,7 @@
     Date last edited: 02/25/2026
     Version: 1.0
     By: Sydney Guico
-    Description: Working Functions to Website Form
+    Description: Code to Functions on Website Form
 */
 
 //dynamic date js code
