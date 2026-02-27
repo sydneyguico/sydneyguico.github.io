@@ -89,10 +89,10 @@
                  </td>
                 </tr>
 
-                <!-- Gender or Sex -->
+                <!-- Patient Sex -->
 
                 <tr>
-                    <td> class= "td1"><label for= "psex">Patient's Sex </label></td>
+                    <td> <label for= "psex">Patient's Sex: </label></td>
                     <td>
                         <input 
                         type="radio" 
@@ -110,9 +110,17 @@
                         /> 
                         Female
 
-                        <input 
+                         <input 
                         type="radio" 
                         id="s3" 
+                        name="psex" 
+                        value="Other"
+                        /> 
+                        Other
+
+                        <input 
+                        type="radio" 
+                        id="s4" 
                         name="psex" 
                         value="I prefer not to say"
                         /> 
@@ -134,7 +142,7 @@
 
                 <!-- SSN-->
             <tr>
-                <td class="td1"><label for="ssn">Social Security Number:</label></td>
+                <td><label for="ssn">Social Security Number:</label></td>
                 <td>
                     <input 
                     type="password" 
@@ -156,7 +164,7 @@
 
             <!-- Address -->
             <tr>
-                <td> class="td1"><label for="address1">Address:</label></td>
+                <td> <label for="address1">Address:</label></td>
                 <td>
                     <input 
                     type="text" 
@@ -170,7 +178,7 @@
                 </td>
             </tr>
             </tr>
-                <td> class="td1"><label for="address2">Address:</label></td>
+                <td><label for="address2">Address:</label></td>
                 <td>
                     <input 
                     type="text" 
@@ -185,7 +193,7 @@
             </tr>
 
             <tr> <!-- city -->
-                    <td class="td1"><label for="city">City:</label>label></td>
+                    <td><label for="city">City:</label></td>
                     <td>
                     <input
                         type="text" 
@@ -194,7 +202,7 @@
                         maxlength="40" 
                         title="Please enter your city" 
                         required 
-                        placeholder="What ever city want it to show"
+                        placeholder="Please enter your city"
                         />
                 </td>
             </tr>   
@@ -263,7 +271,7 @@
                 </tr>
 
                 <tr> <!-- zip code -->
-                    <td class="td1"><label for="zcode">Zip Code:</label></td>
+                    <td><label for="zcode">Zip Code:</label></td>
                     <td>
                     <input
                         type="text" 
@@ -271,15 +279,15 @@
                         id="zcode" 
                         maxlength="5" 
                         pattern="[0-9]{5}"
-                        title="Please enter your zip code" 
+                        title="Enter your zip code" 
                         required 
-                        placeholder="What ever zip code you want it to show"
+                        placeholder="Enter zip code"
                         />
                 </td>
             </tr>  
 
             </tr>  <!-- email -->
-                <td class="td1"><label for=""email?>Email Address:</label>label></td>
+                <td ><label for="email">Email Address:</label></td>
                 <td>
                     <input type="text"
                     name="email"
@@ -287,13 +295,13 @@
                     required
                     maxlength="30"
                     title="Please enter your email"
-                    placeholder="sydneyg.tp@gmail.com"
+                    placeholder="sydneyguico.tp@gmail.com"
                     />
                 </td>
             </tr>
 
             <tr>  <!-- phone number -->
-                <td class="td1"><label for="phone">Phone Number:</label></td>
+                <td><label for="phone">Phone Number:</label></td>
                         <td>
                             <input type="text"
                             name="phone"
@@ -364,25 +372,20 @@
                         <td class="td1"><label for="past_history"> Have you had:</label></td>
                         <td>
                                 <input type="checkbox" id="option1" value="Chicken Pox"> Chicken Pox
-                                <label for="Chicken Pox">Chicken Pox</label>
 
                                 <input type="checkbox" id="option2" value="Measles"> Measles
-                                <label for="Measles">Measles</label>
 
                                 <input type="checkbox" id="option3" value="Covid-19"> Covid-19
-                                <label for="Covid-19">Covid-19</label>
 
                                 <input type="checkbox" id="option4" value="Small Pox"> Small Pox
-                                <label for="Small Pox">Small Pox</label>
 
                                 <input type="checkbox" id="option5" value="Tetanus"> Tetanus
-                                <label for="Tetanus">Tetanus</label>
                         </tr>
 
-                         <!-- align -->
+                         <!-- ALIGN & Describe Symptoms-->
                         <header>
                                     <td class="td1" align="right" 
-                                        <label for="notes">Describe your current symptoms, <br> please explain: </label>
+                                        <label for="notes">Describe your current symptoms: </label>
                                         </td>
                                 
                                        <td>
@@ -394,7 +397,7 @@
                                             id="notes" 
                                             name="notes" 
                                             title="Please write a description on the Symptoms your experiencing..."
-                                            placeholder="(Insert text here...)"
+                                            placeholder="(Please explain)"
                                             ></textarea>
                                             <span id="description text"></span>
                                         </td>
@@ -403,7 +406,7 @@
 
                         <!-- SLIDER HTML CODE -->
                          <tr>
-                            <td class="td1"><label for="range">How is your health?<br/>(Rate from 1 to 10)</label></td>
+                            <td class="td1"><label for="range">How is your health?<br/>(On a scale of 1 to 10, 10 being feeling good)</label></td>
                             <td>
                                 <input
                                 type="range"
@@ -448,7 +451,7 @@
                                                 maxlength="30"
                                                 required
                                                 title="Please enter a Password:"
-                                                placeholder="Registration"
+                                                placeholder="Enter password"
                                                 />
                                             </td>
                                         </tr>
@@ -463,7 +466,7 @@
                                                 maxlength="30"
                                                 required
                                                 title="Please re-enter your Password:"
-                                                placeholder="Registration"
+                                                placeholder="Re-enter password"
                                                 />
                                             </td>
                                         </tr>
