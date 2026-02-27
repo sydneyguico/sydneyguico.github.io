@@ -5,7 +5,7 @@
     Date last edited: 02/25/2026
     Version: 1.0
     By: Sydney Guico
-    Description: Visual code to Website Form
+    Description: Homework 1 HTML Form
 */
 
 header {
@@ -20,7 +20,7 @@ body {
     background: rgb(246, 220, 226);
     margin: 0;
     height: 100%;
-    min-height: 100vh; /* page is height of the viewport */
+    min-height: 100vh; /* page will be height of the viewport */
 }
 
 form {
@@ -60,8 +60,8 @@ footer {
     position: flex;
     bottom: 0;
     width: 100%;
-    background-color: rgb(246, 220, 226);
-    height: 2.0rem;
+    background-color: rgb(231, 171, 186);
+    height: 7.0rem;
 }
 
 #footer {
