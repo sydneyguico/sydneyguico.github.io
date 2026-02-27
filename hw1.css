@@ -2,7 +2,7 @@
     Program name: Homework 1 HTML Form
     Author: sydneyguico.github.io
     Date created: 02/10/2026
-    Date last edited: 02/25/2026
+    Date last edited: 02/26/2026
     Version: 1.0
     By: Sydney Guico
     Description: Homework 1 HTML Form
@@ -64,6 +64,13 @@ footer {
     height: 7.0rem;
 }
 
+.address-box {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    /* Increase this value to move the 123 Cat Lane address further to the left */
+    margin-right: 30px; 
+}
+
 #footer {
     text-align: right;
     font-family: "optima", sans-serif;
@@ -93,7 +100,7 @@ textarea {
     text-align: left;
     font-family: "optima", sans-serif;
     font-weight: normal;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 p {
