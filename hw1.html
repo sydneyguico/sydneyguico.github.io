@@ -262,23 +262,59 @@
                     </td>
                 </tr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <tr>
-                    <td><label for="history">Have you ever had:</label></td>
+                <tr> <!-- zip code -->
+                    <td class="td1"><label for="zcode">Zip Code:</label></td>
                     <td>
-                        <input type="checkbox" id="option1" value="Chicken Pox"> Chicken Pox
-                        <!-- Add more checkboxes -->
-                    </td>
+                    <input
+                        type="text" 
+                        name="zcode" 
+                        id="zcode" 
+                        maxlength="5" 
+                        pattern="[0-9]{5}"
+                        title="Please enter your zip code" 
+                        required 
+                        placeholder="What ever zip code you want it to show"
+                        />
+                </td>
+            </tr>  
+
+            </tr>  <!-- email -->
+                <td class="td1"><label for=""email?>Email Address:</label>label></td>
+                <td>
+                    <input type="text"
+                    name="email"
+                    id="email"
+                    required
+                    maxlength="30"
+                    title="Please enter your email"
+                    placeholder="sydneyg.tp@gmail.com"
+                    />
+                </td>
+            </tr>
+
+            <tr>  <!-- phone number -->
+                <td class="td1"><label for="phone">Phone Number:</label></td>
+                        <td>
+                            <input type="text"
+                            name="phone"
+                            id="phone"
+                            pattern="[0-3]{3}-[0-3]{3}-[0-3]{3}"
+                            required
+                            maxlength="12"
+                            title="Please enter your phone number"
+                            required
+                            placeholder="333-333-3333"
+                            />
+                        </td>
+                </tr>
+
+                 <!-- INSERT LINE -->
+                <tr>
+                    <th colspan="4">Patient's History</th>
+                </tr>
+
+                <!-- Patient Background -->
+                
+                <tr>
+                
                 </tr>
