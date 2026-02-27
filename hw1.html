@@ -310,11 +310,190 @@
 
                  <!-- INSERT LINE -->
                 <tr>
+                    <th colspan="4"><hr></th>
+                </tr>
+
+                <!-- Patient Background RADIO BOXES-->
+                
+                <tr>
                     <th colspan="4">Patient's History</th>
                 </tr>
 
-                <!-- Patient Background -->
-                
-                <tr>
-                
-                </tr>
+                 <tr>  <!-- RADIO BOXES-->
+                    <td class="td1"><label for="vacc"> Have you been vaccinated:</label></td>
+                    <td>
+                        <input
+                        type="radio"
+                        id="v1"
+                        name="vaccinated"
+                        value="Yes"
+                        />
+                        Yes
+                        <input
+                        type="radio"
+                        id="v2"
+                        name="vaccinated"
+                        value="No"
+                        />
+                        No
+                        </td>
+                     </tr>
+
+                 <tr>
+                    <td class="td1"><label for="vacc"> Do you have insurance:</label></td>
+                    <td>
+                        <input
+                        type="radio"
+                        id="i1"
+                        name="insurance"
+                        value="Yes"
+                        />
+                        Yes
+                        <input
+                        type="radio"
+                        name="insurance"
+                        id="i2"
+                        name="vacc"
+                        value="No"
+                        />
+                        No
+                        </td>
+                     </tr>
+
+                     <tr> <!-- History Checkboxes -->
+                        <td class="td1"><label for="past_history"> Have you had:</label></td>
+                        <td>
+                                <input type="checkbox" id="option1" value="Chicken Pox"> Chicken Pox
+                                <label for="Chicken Pox">Chicken Pox</label>
+
+                                <input type="checkbox" id="option2" value="Measles"> Measles
+                                <label for="Measles">Measles</label>
+
+                                <input type="checkbox" id="option3" value="Covid-19"> Covid-19
+                                <label for="Covid-19">Covid-19</label>
+
+                                <input type="checkbox" id="option4" value="Small Pox"> Small Pox
+                                <label for="Small Pox">Small Pox</label>
+
+                                <input type="checkbox" id="option5" value="Tetanus"> Tetanus
+                                <label for="Tetanus">Tetanus</label>
+                        </tr>
+
+                         <!-- align -->
+                        <header>
+                                    <td class="td1" align="right" 
+                                        <label for="notes">Describe your current symptoms, <br> please explain: </label>
+                                        </td>
+                                
+                                       <td>
+                                            <textarea 
+                                            
+                                            rows="3"
+                                            cols="50" 
+                                            maxlength="500"
+                                            id="notes" 
+                                            name="notes" 
+                                            title="Please write a description on the Symptoms your experiencing..."
+                                            placeholder="(Insert text here...)"
+                                            ></textarea>
+                                            <span id="description text"></span>
+                                        </td>
+                                    </tr>
+
+
+                        <!-- SLIDER HTML CODE -->
+                         <tr>
+                            <td class="td1"><label for="range">How is your health?<br/>(Rate from 1 to 10)</label></td>
+                            <td>
+                                <input
+                                type="range"
+                                name="range"
+                                id="range"
+                            min="0"
+                            max="10"
+                            value="0"
+                            />
+                            <span id="range-slider"></span>
+                            </td>
+                        </tr>
+
+                        <!-- INSERT LINE Webpage split-->
+                        <tr>
+                            <th colspan="4"><hr></th>
+                        </tr>
+
+                        <!-- Patient Account Login -->
+                        <tr>
+                            <td class="td1"><label for="username">Username:</label></td>
+                                            <td>
+                                                <input
+                                                type="text"
+                                                name="username"
+                                                id="username"
+                                                maxlength="20"
+                                                required
+                                                title="Please enter a username:"
+                                                placeholder="Whatever you want"
+                                                />
+                                            </td>
+                                        </tr>
+
+                                        </tr>
+                                            <td class="td1"><label for="pass">Password:</label></td>
+                                            <td>
+                                                <input
+                                                type="password"
+                                                name="pass"
+                                                id="pass"
+                                                maxlength="30"
+                                                required
+                                                title="Please enter a Password:"
+                                                placeholder="Registration"
+                                                />
+                                            </td>
+                                        </tr>
+
+                                        </tr>
+                                            <td class="td1"><label for="c_pass">Confrim Password:</label></td>
+                                            <td>
+                                                <input
+                                                type="password"
+                                                name="pass"
+                                                id="pass"
+                                                maxlength="30"
+                                                required
+                                                title="Please re-enter your Password:"
+                                                placeholder="Registration"
+                                                />
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="4">
+                                                <center>
+                                                    <input type="submit" name="submit" id="submit" style="font-family: 'Arial', Helvetica, sans-serif;"> 
+                                                    &nbsp;&nbsp;&nbsp; 
+                                                    <input type="reset" name="reset" id="reset" style="font-family: 'Arial', Helvetica, sans-serif;"> 
+                                                </center>
+                                            </td>
+                                        </tr>
+                                     </table>
+                                    </div>
+                              </center>
+                         </form>
+
+                           <!-- Footer goes here-->
+                            <footer>
+                                    <p id="footer"> &#169 Cat Medical <a href="Paste-link.here" target="_blank" rel="noopener noreferrer">Contact Us!</a></p>
+                            </footer>
+
+                            <script src="hw1.js"></script><!-- links to js file-->
+
+
+
+
+
+
+
+
+
