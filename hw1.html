@@ -1,93 +1,98 @@
 <!DOCTYPE html>
 <!--
     Program name: Homework 1 HTML Form
-    Author: Sydney Guico
-    Date created: 02/19/2026
-    Date last edited: 02/25/2026
+    Author: sydneyguico.github.io
+    Date created: 02/10/2026
+    Date last edited: 02/26/2026
     Version: 1.0
-    Description: HTML Code to Structure Content of Website Form
+    By: Sydney Guico
+    Description: HTML Code to Structure the Content of the Website Form
 -->
 
-<!-- english language -->
-<html lang="en">
-<!-- head section & css link -->
-    <head>
-        <link rel="stylesheet" href="hw1.css"> <!-- links to css file-->
-        <title> New Patient Registry | Cat Medical </title>
-    </head>
-    <body>
-        <header>
-             <table width="100%">
-                  <tr>
-                    <td valign="top" align="left" width="20%">
-                     <div class="image">
-                         <img align="center" src="CatMedical.jpeg" alt="Cat Medical" width="70px" id="logo"/>
-                     </div>
-                     </td>
+        <!-- english language -->
+        <html lang="en">
+        <!-- head section & css link -->
+                    <head>
+                        <link rel="stylesheet" href="hw1.css"> <!-- links to css file-->
+                        <title> New Patient Registry | Cat Medical </title>
+                    </head>
+                    <body>
+                        <header>
+                            <table width="100%">
+                                <tr>
+                                    <td valign="top" align="left" width="20%">
+                                    <div class="image">
+                                        <img align="center" src="CatMedical.jpeg" alt="Cat Medical" width="70px" id="logo"/>
+                                    </div>
+                                    </td>
 
-                    <td>
-                      <h2>Cat Medical</h2> 
-                    </td>
+                                    <td>
+                                    <h2>Cat Medical</h2> 
+                                    </td>
 
-                    <td valign="bottom" align="right" width="20%">
-                        <p>Today's Date: <span id="today"></span></p><!-- writes date-->
-                    </td>
-                </tr>
-            </table>
-        </header>
-<hr>
+                                    <td valign="bottom" align="right" width="20%">
+                                        <p>Today's Date: <span id="today"></span></p><!-- writes date-->
+                                    </td>
+                                </tr>
+                            </table>
+                        </header>
+                    <hr>
 
-<!-- Form Starts-->
-<form action="thankyou.html">
-    <center>
-         <div class="format">
-            <table>
-                <tr>
-                    <th colspan="4">Create Patient Portal Account</th>
-                </tr>
+        <!-- Form Starts-->
+                    <form action="thankyou.html">
+                        <center>
+                            <div class="format">
+                                <table>
+                                    <tr>
+                                        <th colspan="4">Create Patient Portal Account</th>   <!-- Patient Account Info section starts-->
+                                    </tr>
 
 
-                    <!-- Patient info section starts-->
-                    <!-- Patient Name (F,M,L)-->
-                     <tr>
-    <td><label for="fname">First Name:</label></td>
-    <td>
-                    <input type="text" 
-                    name="fname" 
-                    id="fname" 
-                    maxlength="30" (change)
-                    title="Please enter your first name" 
-                    required 
-                    placeholder="Sydney"/>
-                 </td>
-                </tr>
+                                        <!-- Patient Name (F,M,L)-->
+                                        
+                                        <tr>
+                        <td><label for="fname">First Name:</label></td>
+                        <td>
+                                        <input type="text" 
+                                        name="fname" 
+                                        id="fname" 
+                                        maxlength="30" (change)
+                                        title="Please enter your first name" 
+                                        required 
+                                        placeholder="Sydney"/>
+                                    </td>
+                                    </tr>
 
-               <tr>
-                <td><label for="mname">Middle Initial:</label></td>
-                 <td>
-                    <input type="text" 
-                    name="mname" 
-                    id="mname" 
-                    maxlength="1" (change)
-                    title="Please enter your middle inital" 
-                    required 
-                    placeholder="R"/>
-                 </td>
-                </tr> 
+                                <tr>
+                                    <td><label for="mname">Middle Initial:</label></td>
+                                    <td>
+                                        <input type="text" 
+                                        name="mname" 
+                                        id="mname" 
+                                        maxlength="1" (change)
+                                        title="Please enter your middle inital" 
+                                        required 
+                                        placeholder="R"/>
+                                    </td>
+                                        
+                                    </tr> 
 
-                <tr>
-                <td><label for="lname">Last Name:</label></td>
-                 <td>
-                    <input type="text" 
-                    name="lname" 
-                    id="lname" 
-                    maxlength="30" (change)
-                    title="Please enter your last name" 
-                    required 
-                    placeholder="Guico"
-                    />
-                 </td>
-                </tr>
+                                    <tr>
+                                    
+                                    <td><label for="lname">Last Name:</label></td>
+                                    <td>
+                                        <input type="text" 
+                                        name="lname" 
+                                        id="lname" 
+                                        maxlength="30" (change)
+                                        title="Please enter your last name" 
+                                        required 
+                                        placeholder="Guico"
+                                        />
+                                
+                                    </td>
+                                    </tr>
+
 
                 <!-- Patient Sex -->
 
@@ -199,8 +204,8 @@
                         type="text" 
                         name="city" 
                         id="city" 
-                        maxlength="40" 
-                        title="Please enter your city" 
+                        maxlength="30" 
+                        title="Enter your city" 
                         required 
                         placeholder="Please enter your city"
                         />
@@ -508,12 +513,3 @@
 
 
                             <script src="hw1.js"></script><!-- links to js file-->
-
-
-
-
-
-
-
-
-
